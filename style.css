@@ -15,20 +15,21 @@ header {
 
 /* styling navbar */
 .navbar {
-  background-color: #4c4c6d;
-  padding: 2%;
+  background-color: #00A17E;
+  padding: 0%;
 }
 
 .menu {
-  margin-right: 10%;
+  margin-right: -10%;
   text-decoration: none;
 }
 #home{
-  color: #1b9c85;
+  color: #168b76;
   font-weight: bold;
 }
 .menu-item{
-  margin: 40px;
+  margin: 30px;
+
   text-decoration: none;
   color: white;
 }
@@ -41,10 +42,10 @@ header {
 /* ====================================== */
 /* styling page 1 */
 .content {
-  background-color: #4c4c6d;
+  background-color: #00A17E;
   padding: 10% 10% 15% 10%;
-  background-image: url(bg1.png);
-  background-size: 70%;
+  background-image: url(bgnet.jpg);
+  background-size: 100%;
   position: relative;
 }
 
@@ -55,7 +56,7 @@ header {
 
 .btn {
   background-color: #1b9c85;
-  border-radius: 10px;
+  border-radius: 50px;
   color: azure;
   padding: 10px 50px 10px 50px;
   width: fit-content;
@@ -103,7 +104,7 @@ header {
   display: flex;
   text-align: center;
   justify-content: center;
-  color: #4c4c6d;
+  color: #00A17E;
   text-align: initial;
 }
 .sjudul {
@@ -132,19 +133,20 @@ header {
   color: #f0f0f0;
 }
 #page-ganjil {
-  background-color: #4c4c6d;
-  background-image: url(bg1.png);
-  background-size: 70%;
+  background-color: #00A17E;
+  background-image: url(bg2.png);
+  background-size: 150%;
 }
 
 .page2 {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+
 }
 .page2 > div {
   margin: 20px;
   width: 480px;
-  height: 480px;
+  height: 380px;
 }
 #gambar {
   position: relative;
@@ -185,7 +187,7 @@ header {
   display: flex;
   text-align: center;
   justify-content: center;
-  color: #4c4c6d;
+  color: #00A17E;
   text-align: initial;
 }
 .sjudul {
@@ -206,7 +208,7 @@ header {
 .layout {
   display: flex;
   justify-content: center;
-  background-color: #4c4c6d;
+  background-color: #00A17E;
   padding-top: 40px;
   color: #f0f0f0;
 }
@@ -215,14 +217,14 @@ header {
   padding-top: 0px;
   margin-top: 600px;
   margin: 20px;
-  margin-right: 18%;
+  margin-right: 35%;
 }
 
 .gambar {
-  width: 300px;
-  height: 60px;
+  width: 150px;
+  height: 70px;
   padding-top: 0px;
-  margin-top: 20px;
+  margin-top: -10px;
   margin-bottom: 17px;
 }
 
@@ -241,7 +243,7 @@ header {
 .sosmed-name {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 2px;
 }
 
 .text-sosmed {
@@ -257,8 +259,8 @@ header {
 
 .layanan > h4 {
   text-align: left;
-  margin-bottom: 40px;
-  margin-top: 21px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 .layanan > p {
   text-align: left;
